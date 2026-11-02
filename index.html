@@ -103,13 +103,13 @@
   /* ---------- Hero ---------- */
   .hero{
     text-align:center;
-    padding:clamp(72px,11vh,130px) 20px clamp(48px,7vh,84px);
+    padding:clamp(40px,5.5vh,68px) 20px clamp(26px,3.5vh,42px);
   }
   .hero-badge{
     display:inline-flex;align-items:center;gap:8px;
     font-size:13px;color:var(--txt-dim);
     border:1px solid var(--stroke);background:rgba(255,255,255,.8);
-    padding:7px 16px;border-radius:999px;margin-bottom:26px;
+    padding:6px 15px;border-radius:999px;margin-bottom:18px;
     box-shadow:var(--shadow-s);backdrop-filter:blur(8px);
   }
   .hero-badge b{color:var(--acc2);font-weight:600}
@@ -117,7 +117,7 @@
     font-size:clamp(52px,10vw,112px);
     font-weight:900;letter-spacing:.04em;line-height:1.08;
     color:#3a2bbf;
-    margin-bottom:18px;
+    margin-bottom:10px;
   }
   .hero h1 .glow{display:inline-block}
   @supports ((-webkit-background-clip:text) or (background-clip:text)){
@@ -129,8 +129,8 @@
   }
   .hero .hero-domain{
     display:inline-flex;align-items:center;gap:10px;
-    margin:0 auto 20px;
-    padding:11px 26px;border-radius:999px;
+    margin:0 auto 14px;
+    padding:9px 22px;border-radius:999px;
     font-family:"Consolas","SFMono-Regular",ui-monospace,monospace;
     font-size:clamp(18px,3vw,26px);font-weight:800;
     letter-spacing:.22em;color:#4a3ad6;
@@ -145,24 +145,24 @@
   .hero p{color:var(--txt-dim);font-size:clamp(15px,2.2vw,18px);max-width:680px;margin:0 auto;letter-spacing:.04em}
   .hero p b{color:var(--txt);font-weight:600}
   .hero-keys{
-    display:flex;flex-wrap:wrap;justify-content:center;gap:10px;
-    margin:22px auto 0;max-width:760px;
+    display:flex;flex-wrap:wrap;justify-content:center;gap:8px;
+    margin:16px auto 0;max-width:760px;
   }
   .hero-keys span{
     font-size:clamp(13px,2.4vw,16px);font-weight:600;color:#4a3ad6;
     background:rgba(255,255,255,.85);border:1px solid rgba(108,92,231,.22);
-    padding:8px 18px;border-radius:999px;box-shadow:var(--shadow-s);
+    padding:6px 15px;border-radius:999px;box-shadow:var(--shadow-s);
   }
   .hero-keys span:nth-child(4n+2){color:#00997a;border-color:rgba(0,179,156,.28)}
   .hero-keys span:nth-child(4n+3){color:#c2410c;border-color:rgba(255,122,89,.28)}
   .hero-kicker{
-    margin-top:18px;font-size:13px;color:#6b7285;letter-spacing:3px;
+    margin-top:12px;font-size:13px;color:#6b7285;letter-spacing:3px;
   }
 
   /* ---------- 区块 ---------- */
   .wrap{max-width:1120px;margin:0 auto;padding:0 clamp(16px,4vw,40px)}
-  section.block{padding:clamp(28px,5vh,56px) 0}
-  .sec-head{display:flex;align-items:center;gap:16px;margin-bottom:28px}
+  section.block{padding:clamp(18px,2.8vh,32px) 0}
+  .sec-head{display:flex;align-items:center;gap:16px;margin-bottom:18px}
   .sec-num{
     font-size:13px;font-weight:800;letter-spacing:2px;
     color:var(--acc2);border:1px solid rgba(0,163,127,.32);
@@ -172,15 +172,15 @@
   .sec-head h2{font-size:clamp(22px,3.6vw,32px);font-weight:800;letter-spacing:.5px}
   .sec-head .line{flex:1;height:1px;background:linear-gradient(90deg,var(--stroke),transparent)}
 
-  .cards{display:grid;gap:18px}
+  .cards{display:grid;gap:14px}
   .course-grid{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
   .wide-card{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
 
   a.card{
     text-decoration:none;color:var(--txt);
     background:var(--card);border:1px solid var(--stroke);
-    border-radius:var(--radius);padding:26px 22px;
-    display:flex;flex-direction:column;gap:10px;
+    border-radius:var(--radius);padding:20px 18px;
+    display:flex;flex-direction:column;gap:8px;
     position:relative;overflow:hidden;
     box-shadow:var(--shadow-s);
     transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease;
@@ -203,9 +203,9 @@
   .go .arrow{transition:transform .3s ease;display:inline-block}
 
   /* 大卡片（网盘群 / 更新日志） */
-  a.big-card{padding:34px 30px;gap:12px}
+  a.big-card{padding:26px 24px;gap:10px}
   a.big-card .ico{
-    width:58px;height:58px;border-radius:16px;display:grid;place-items:center;font-size:28px;
+    width:52px;height:52px;border-radius:15px;display:grid;place-items:center;font-size:26px;
     background:linear-gradient(135deg,rgba(108,92,231,.14),rgba(0,179,156,.16));
     border:1px solid rgba(108,92,231,.16);
   }
@@ -221,14 +221,14 @@
 
   /* ---------- 页脚 ---------- */
   footer{
-    margin-top:clamp(40px,8vh,90px);
+    margin-top:clamp(24px,4vh,48px);
     border-top:1px solid var(--stroke);
     background:linear-gradient(180deg,rgba(255,255,255,.72),rgba(240,243,250,.95));
     backdrop-filter:blur(6px);
   }
   .foot-inner{
     max-width:1120px;margin:0 auto;
-    padding:clamp(40px,6vh,70px) clamp(16px,4vw,40px) 34px;
+    padding:clamp(26px,4vh,44px) clamp(16px,4vw,40px) 26px;
     display:grid;grid-template-columns:1fr auto;gap:clamp(28px,5vw,64px);align-items:center;
   }
   .foot-left h3{font-size:26px;font-weight:800;margin-bottom:10px}
@@ -242,12 +242,12 @@
     width:26px;height:26px;border-radius:8px;background:#07c160;display:grid;place-items:center;
     font-size:14px;color:#fff;font-weight:800;
   }
-  .foot-left p{color:var(--txt-dim);font-size:14px;margin-bottom:26px}
+  .foot-left p{color:var(--txt-dim);font-size:14px;margin-bottom:18px}
 
   .qq-box{
     display:inline-flex;align-items:center;gap:16px;
     background:#fff;border:1px dashed rgba(108,92,231,.45);
-    border-radius:16px;padding:18px 26px;cursor:pointer;
+    border-radius:16px;padding:14px 20px;cursor:pointer;
     box-shadow:var(--shadow-s);
     transition:all .25s ease;user-select:none;
   }
@@ -281,7 +281,7 @@
 
   .foot-bottom{
     max-width:1120px;margin:0 auto;
-    padding:18px clamp(16px,4vw,40px);
+    padding:14px clamp(16px,4vw,40px);
     border-top:1px solid var(--stroke);
     display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;
     font-size:12px;color:#8b91a3;
